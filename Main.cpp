@@ -1,7 +1,7 @@
 ﻿#include "MultiplicationTables.h"
 
 void practice() {
-    int selection;
+    int selection = 0;
 
     cout << "1. Table sets in numerical order" << endl;
     cout << "2. Random multiplication problems" << endl;
@@ -23,8 +23,8 @@ void practice() {
 }
 
 void generateTables() {
-    int max, numProblems;
-    int product, guess;
+    int max = 0, numProblems = 0;
+    int product = 0, guess = 0;
 
     cout << endl << "How high would you like the randomizer to go? ";
     cin >> max;
@@ -52,8 +52,8 @@ void generateTables() {
 }
 
 void tableSets() {
-    int tableChoice, maxTable;
-    int product, guess;
+    int tableChoice = 0, maxTable = 0;
+    int product = 0, guess = 0;
 
     cout << endl << "Which number multiplication table would you like to practice? ";
     cin >> tableChoice;
@@ -75,7 +75,7 @@ void tableSets() {
 }
 
 void morePractice() {
-    char yesNo;
+    char yesNo = ' ';
 
     cout << "Would you like to keep practicing? (Y/N): ";
     cin >> yesNo;
